@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  AFViewController.h
 //  Chapter 1 Project 1
 //
 //  Created by Greg Delgado on 26/10/2017.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface AFViewController : UICollectionViewController
 
 @end
-

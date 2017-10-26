@@ -8,24 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		4DC3D9051FA183F7005457D2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DC3D9041FA183F7005457D2 /* AppDelegate.m */; };
-		4DC3D9081FA183F7005457D2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DC3D9071FA183F7005457D2 /* ViewController.m */; };
 		4DC3D90B1FA183F7005457D2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DC3D9091FA183F7005457D2 /* Main.storyboard */; };
 		4DC3D90D1FA183F7005457D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DC3D90C1FA183F7005457D2 /* Assets.xcassets */; };
 		4DC3D9101FA183F7005457D2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DC3D90E1FA183F7005457D2 /* LaunchScreen.storyboard */; };
 		4DC3D9131FA183F7005457D2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DC3D9121FA183F7005457D2 /* main.m */; };
+		4DC3D91B1FA1891B005457D2 /* AFViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DC3D91A1FA1891B005457D2 /* AFViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		4DC3D9001FA183F7005457D2 /* Chapter 1 Project 1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Chapter 1 Project 1.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4DC3D9031FA183F7005457D2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		4DC3D9041FA183F7005457D2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		4DC3D9061FA183F7005457D2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		4DC3D9071FA183F7005457D2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		4DC3D90A1FA183F7005457D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4DC3D90C1FA183F7005457D2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4DC3D90F1FA183F7005457D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4DC3D9111FA183F7005457D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4DC3D9121FA183F7005457D2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4DC3D9191FA1891B005457D2 /* AFViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AFViewController.h; sourceTree = "<group>"; };
+		4DC3D91A1FA1891B005457D2 /* AFViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AFViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,8 +60,8 @@
 			children = (
 				4DC3D9031FA183F7005457D2 /* AppDelegate.h */,
 				4DC3D9041FA183F7005457D2 /* AppDelegate.m */,
-				4DC3D9061FA183F7005457D2 /* ViewController.h */,
-				4DC3D9071FA183F7005457D2 /* ViewController.m */,
+				4DC3D9191FA1891B005457D2 /* AFViewController.h */,
+				4DC3D91A1FA1891B005457D2 /* AFViewController.m */,
 				4DC3D9091FA183F7005457D2 /* Main.storyboard */,
 				4DC3D90C1FA183F7005457D2 /* Assets.xcassets */,
 				4DC3D90E1FA183F7005457D2 /* LaunchScreen.storyboard */,
@@ -142,9 +142,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4DC3D9081FA183F7005457D2 /* ViewController.m in Sources */,
 				4DC3D9131FA183F7005457D2 /* main.m in Sources */,
 				4DC3D9051FA183F7005457D2 /* AppDelegate.m in Sources */,
+				4DC3D91B1FA1891B005457D2 /* AFViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
