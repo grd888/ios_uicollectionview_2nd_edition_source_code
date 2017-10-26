@@ -1,6 +1,6 @@
 //
 //  AppDelegate.swift
-//  Chapter 1 Project 1
+//  Chapter 2 Project 2
 //
 //  Created by Greg Delgado on 26/10/2017.
 //  Copyright © 2017 Greg Delgado. All rights reserved.
@@ -13,18 +13,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
 
+    
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        
-        window = UIWindow.init(frame: UIScreen.main.bounds)
-        var collectionViewLayout = UICollectionViewFlowLayout.init()
-        collectionViewLayout.scrollDirection = .horizontal
-        collectionViewLayout.sectionInset = UIEdgeInsetsMake(10, 10, 10, 10)
-        collectionViewLayout.itemSize = CGSize(width: 50, height: 50)
-        
-        window?.rootViewController = AFViewController(collectionViewLayout: collectionViewLayout)
-        window?.backgroundColor = UIColor.white
-        window?.makeKeyAndVisible()
+        // Override point for customization after application launch.
         return true
     }
 
